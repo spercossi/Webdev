@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="IT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Personal Portfolio Website - Simone Percossi- Contact</title>
+    <link rel="icon" type="image/x-icon" href="img/icon.ico">
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="https://epicode.com/" class="logo"> <img src="img\EPICODE_l.png" alt="logo epicode" class="logo"></a>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li> <a href="index.html" id="hbuttn">HOME</a></li>
+                    <li> <a href="about.html" id="abuttn">ABOUT</a></li>
+                    <li> <a href="resume.html" id="rbuttn">RESUME</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <a href="contact.html" id="cbuttn" class="button" style="color: #4C0B8C;">Contact </a>
+        <img src="img\ham.png" class="hamburger" alt="icona menu">
+    </header>
+    <menu class="links">
+        <ul>
+            <li> <a href="index.html" >Home</a></li>
+            <li> <a href="about.html" >About</a></li>
+            <li> <a href="resume.html" >Resume</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+        </ul>
+
+    </menu>
+
+    <main>
+        <div class="contact-container">
+            <h1>Get in touch!</h1>
+            <form  action="https://api.web3forms.com/submit" method="POST"name="form" id="form" >
+                <input type="hidden" name="apikey" value="da1e76e2-ee5c-4c93-b0bc-308bf6552237">
+                <label for="nome">Nome e Cognome</label>
+                <input type="text" name="nome" placeholder="Inserisci il tuo Nome e Cognome">
+                <label for="mail" >Mail</label>
+                <input type="email" name="mail" type="text" placeholder="Inserisci la tua Mail">
+                
+                <textarea rows="6" name="message" id="text_message" placeholder="Scrivi qui il tuo messaggio!"></textarea>
+                
+                <button onsubmit="" type="submit" id= "arrow_button" class="button"><img src="img\arrow_icon.png" alt="arrow_icon"></button>
+            </form>
+
+        </div>
+
+
+    </main>
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+<footer>
+    <div class="foot">
+        <p id="text_foot">&copy; 2024 Simone Percossi</p>
+    </div>
+</footer>
+
+</html>
